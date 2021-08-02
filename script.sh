@@ -2,8 +2,8 @@
 
 LOG_FILE=/var/log/syslog
 LOG_FILE_NAME=syslog
-OUTPUT_PATH=/home/vitali/Documents/scriptOutput
 CURRENT_DATE=$(date +"%b %d")
+export OUTPUT_PATH=$PWD
 
 if [ -e $LOG_FILE ]
   then
