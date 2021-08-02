@@ -1,0 +1,10 @@
+Aug  2 10:06:47 hp-vitali gnome-shell[1848]: GNOME Shell started at Mon Aug 02 2021 10:06:46 GMT+0300 (+03)
+Aug  2 10:06:47 hp-vitali gnome-shell[1848]: Registering session with GDM
+Aug  2 10:06:47 hp-vitali gsd-color[1965]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_Chimei_Innolux_Corporation_gdm_125
+Aug  2 10:06:47 hp-vitali systemd[1]: session-c1.scope: Succeeded.
+Aug  2 10:06:47 hp-vitali systemd[1008]: pulseaudio.service: Succeeded.
+Aug  2 10:06:47 hp-vitali dbus-daemon[1592]: [session uid=1000 pid=1592] Successfully activated service 'org.gnome.Nautilus'
+Aug  2 10:06:47 hp-vitali gdm3: Child process -1022 was already dead.
+Aug  2 10:06:47 hp-vitali org.gnome.Nautilus[2240]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Aug  2 10:06:47 hp-vitali dbus-daemon[1592]: [session uid=1000 pid=1592] Successfully activated service 'org.freedesktop.FileManager1'
+Aug  2 10:06:48 hp-vitali kernel: [   47.683236] audit: type=1326 audit(1627888008.237:59): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2100 comm="snap-store" exe="/snap/snap-store/547/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fbb7fcff639 code=0x50000
