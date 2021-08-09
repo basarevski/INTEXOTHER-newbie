@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.notfound {
+  position: relative;
+  height: 100vh;
+}
+
+.notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  margin-top: 50%;
+  height: 210px;
+  line-height: 210px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 188px;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 4px 4px 0 #00ffc0;
+}
+
+.notfound h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.notfound p {
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.notfound a {
+  font-family: 'Lato', sans-serif;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 0 0 2px #000, 2px 2px 0 2px #00ffc0;
+          box-shadow: 0 0 0 2px #000, 2px 2px 0 2px #00ffc0;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  background-color: #00ffc0;
+  -webkit-box-shadow: 0 0 0 0 #000, 0 0 0 2px #00ffc0;
+          box-shadow: 0 0 0 0 #000, 0 0 0 2px #00ffc0;
+}
